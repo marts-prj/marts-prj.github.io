@@ -1,7 +1,7 @@
 <?php 
 
 
-$name = $_POST['name'];
+$name = $_GET['name'];
 
 require_once('phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
